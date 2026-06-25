@@ -392,20 +392,6 @@ function HomeView({
           })}
         </div>
       </div>
-
-      <footer className="mt-5 grid gap-3 rounded-3xl bg-brand-navy p-4 text-white shadow-2xl sm:grid-cols-[1fr_auto] sm:items-center sm:p-5">
-        <div>
-          <p className="text-sm font-bold uppercase tracking-wide text-white/75">
-            Desarrollo Humano Municipalidad
-          </p>
-          <p className="text-lg font-extrabold">
-            Informarse es el primer paso.
-          </p>
-        </div>
-        <div className="rounded-2xl bg-white/10 px-4 py-3 text-sm font-bold">
-          Linea de orientacion 0800-XXX-XXXX
-        </div>
-      </footer>
     </div>
   );
 }
