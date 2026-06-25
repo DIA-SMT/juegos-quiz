@@ -1,8 +1,8 @@
-import { Roulette } from "@/components/Roulette";
+import { GameHub } from "@/components/GameHub";
 
 export default function Home() {
   return (
-    <main className="app-background animate-gradient-shift relative min-h-dvh w-full overflow-hidden">
+    <main className="app-background animate-gradient-shift relative min-h-dvh w-full overflow-x-hidden">
       {/* Manchas de color difuminadas para dar profundidad al fondo. */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         <div className="animate-float absolute -left-24 top-10 h-72 w-72 rounded-full bg-blue-300/40 blur-3xl" />
@@ -25,7 +25,7 @@ export default function Home() {
       />
 
       <div className="relative z-10">
-        <Roulette />
+        <GameHub />
       </div>
     </main>
   );

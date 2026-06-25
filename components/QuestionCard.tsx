@@ -65,7 +65,7 @@ export function QuestionCard({
         />
       </div>
 
-      <div className="rounded-3xl border border-white/60 bg-white/85 p-6 shadow-xl backdrop-blur-sm sm:p-8">
+      <div className="rounded-3xl border border-white/60 bg-white/90 p-6 shadow-xl backdrop-blur-sm sm:p-8">
         <h2 className="mb-6 text-balance text-xl font-bold leading-snug text-foreground sm:text-2xl">
           {question.pregunta}
         </h2>
@@ -92,11 +92,11 @@ export function QuestionCard({
                 disabled={answered}
                 initial={{ opacity: 0, x: -16 }}
                 animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.06 }}
-                whileHover={!answered ? { scale: 1.02 } : undefined}
-                whileTap={!answered ? { scale: 0.98 } : undefined}
+                transition={{ delay: i * 0.035, duration: 0.16 }}
+                whileHover={!answered ? { scale: 1.01 } : undefined}
+                whileTap={!answered ? { scale: 0.96 } : undefined}
                 className={cn(
-                  "flex items-center gap-3 rounded-2xl border-2 p-4 text-left text-base font-semibold transition-colors",
+                  "flex min-h-16 touch-manipulation items-center gap-3 rounded-2xl border-2 p-4 text-left text-base font-semibold transition-colors sm:text-lg",
                   state === "idle" &&
                     "border-blue-100 bg-white hover:border-blue-300 hover:bg-blue-50",
                   state === "correct" &&
@@ -137,7 +137,7 @@ export function QuestionCard({
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: "auto" }}
               exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.3 }}
+              transition={{ duration: 0.18 }}
               className="overflow-hidden"
             >
               <div className="mt-5">

@@ -65,14 +65,14 @@ export function RouletteWheel({
     let delta = desiredMod - currentMod;
     if (delta < 0) delta += 360;
 
-    const spins = 5 + Math.floor(Math.random() * 3); // 5 a 7 vueltas completas
+    const spins = 3 + Math.floor(Math.random() * 2); // 3 a 4 vueltas completas: mas agil para totem
     const jitter = (Math.random() - 0.5) * seg * 0.55; // cae dentro del segmento
     const final = current + spins * 360 + delta + jitter;
 
     let active = true;
 
     const main = animate(rotation, final, {
-      duration: 4.6,
+      duration: 2.8,
       ease: [0.18, 0.72, 0.13, 1], // aceleración corta y desaceleración larga
     });
 
@@ -81,7 +81,7 @@ export function RouletteWheel({
       if (!active) return;
       // Pequeño rebote al detenerse.
       await animate(rotation, [final, final - 3, final + 1.4, final], {
-        duration: 0.55,
+        duration: 0.24,
         ease: "easeInOut",
       });
       if (active) onSpinComplete(targetIndex);
@@ -98,7 +98,7 @@ export function RouletteWheel({
   }, [spinKey]);
 
   return (
-    <div className="relative aspect-square w-full max-w-[min(86vw,30rem)]">
+    <div className="relative aspect-square w-full max-w-[min(86vw,30rem)] touch-manipulation">
       {/* Puntero fijo en la parte superior. */}
       <div className="absolute -top-1 left-1/2 z-30 -translate-x-1/2 drop-shadow-lg">
         <svg width="42" height="54" viewBox="0 0 42 54" aria-hidden>
@@ -223,7 +223,7 @@ export function RouletteWheel({
                   filter="url(#winner-glow)"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: [0.05, 0.4, 0.05] }}
-                  transition={{ duration: 1.3, repeat: Infinity }}
+                  transition={{ duration: 0.85, repeat: Infinity }}
                 />
               );
             })()}
@@ -287,13 +287,13 @@ export function RouletteWheel({
       </motion.div>
 
       {/* Botón central: toca acá para girar. */}
-      <div className="absolute left-1/2 top-1/2 z-20 h-[27%] w-[27%] -translate-x-1/2 -translate-y-1/2">
+      <div className="absolute left-1/2 top-1/2 z-20 h-[31%] w-[31%] -translate-x-1/2 -translate-y-1/2">
         {/* Pulso "sonar" para invitar a tocar (solo cuando se puede girar). */}
         {!spinDisabled && (
           <motion.span
             className="absolute inset-0 rounded-full bg-brand-sky/40"
             animate={{ scale: [1, 1.4], opacity: [0.55, 0] }}
-            transition={{ duration: 1.6, repeat: Infinity, ease: "easeOut" }}
+            transition={{ duration: 1.05, repeat: Infinity, ease: "easeOut" }}
           />
         )}
         <motion.button
@@ -301,10 +301,10 @@ export function RouletteWheel({
           onClick={onSpin}
           disabled={spinDisabled}
           aria-label="Girar la ruleta"
-          whileHover={spinDisabled ? undefined : { scale: 1.07 }}
+          whileHover={spinDisabled ? undefined : { scale: 1.04 }}
           whileTap={spinDisabled ? undefined : { scale: 0.92 }}
-          transition={{ type: "spring", stiffness: 400, damping: 16 }}
-          className="absolute inset-0 flex flex-col items-center justify-center gap-0.5 rounded-full bg-white shadow-[0_8px_24px_rgba(23,99,224,0.45)] ring-4 ring-brand-blue disabled:cursor-default"
+          transition={{ type: "spring", stiffness: 520, damping: 18 }}
+          className="absolute inset-0 flex touch-manipulation flex-col items-center justify-center gap-0.5 rounded-full bg-white shadow-[0_8px_24px_rgba(23,99,224,0.45)] ring-4 ring-brand-blue disabled:cursor-default"
         >
           <Logo className="h-[34%] w-[34%]" />
           <span className="text-[13px] font-extrabold leading-none tracking-wide text-brand-blue sm:text-sm">

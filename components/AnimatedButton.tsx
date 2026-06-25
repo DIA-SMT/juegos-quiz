@@ -26,11 +26,12 @@ export const AnimatedButton = React.forwardRef<
   return (
     <motion.button
       ref={ref}
-      whileHover={{ scale: 1.05, y: -2 }}
-      whileTap={{ scale: 0.95 }}
-      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+      whileHover={{ scale: 1.02, y: -1 }}
+      whileTap={{ scale: 0.94 }}
+      transition={{ type: "spring", stiffness: 560, damping: 20 }}
       className={cn(
         buttonVariants({ variant, size }),
+        "touch-manipulation",
         glow && "shadow-xl shadow-primary/40 hover:shadow-primary/50",
         className
       )}

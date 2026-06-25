@@ -11,11 +11,16 @@ import { CategoryBadge } from "@/components/CategoryBadge";
 import { DidYouKnow } from "@/components/DidYouKnow";
 import { MascotTip } from "@/components/MascotTip";
 import { burst } from "@/lib/confetti";
+import { ArrowLeft } from "lucide-react";
 
 /** Cuánto dura la celebración antes de abrir el cuestionario (ms). */
-const CELEBRATE_MS = 1700;
+const CELEBRATE_MS = 700;
 
-export function Roulette() {
+interface RouletteProps {
+  onBack?: () => void;
+}
+
+export function Roulette({ onBack }: RouletteProps) {
   const game = useRoulette();
   const {
     phase,
@@ -25,7 +30,7 @@ export function Roulette() {
     category,
     questions,
     currentIndex,
-    score,
+    score: quizScore,
     spin,
     handleSpinComplete,
     startQuiz,
@@ -45,15 +50,29 @@ export function Roulette() {
     phase === "idle" || phase === "spinning" || phase === "celebrate";
 
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col items-center justify-center px-4 py-8">
-      <AnimatePresence mode="wait">
+    <div className="mx-auto flex min-h-dvh w-full max-w-6xl flex-col px-4 pb-7 pt-24 sm:pt-28">
+      {onBack && (
+        <div className="mb-5 flex items-center justify-start">
+          <button
+            type="button"
+            onClick={onBack}
+            aria-label="Volver"
+            className="flex h-14 w-14 touch-manipulation items-center justify-center rounded-full border border-white/70 bg-white/90 text-brand-navy shadow-md transition active:scale-95"
+          >
+            <ArrowLeft className="h-5 w-5" />
+          </button>
+        </div>
+      )}
+
+      <div className="flex flex-1 items-center justify-center">
+        <AnimatePresence mode="wait">
         {isWheelView && (
           <motion.section
             key="wheel"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.95 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.2 }}
             className="flex w-full flex-col items-center"
           >
             {/* Encabezado institucional + título. */}
@@ -148,7 +167,7 @@ export function Roulette() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -24 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.2 }}
             className="flex w-full justify-center"
           >
             {/* `key` reinicia la tarjeta (y su estado) en cada pregunta. */}
@@ -169,19 +188,20 @@ export function Roulette() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -24 }}
-            transition={{ duration: 0.4 }}
+            transition={{ duration: 0.2 }}
             className="flex w-full justify-center"
           >
             <ScoreCard
-              score={score}
+              score={quizScore}
               total={questions.length}
               category={category}
-              onHome={reset}
+              onHome={onBack ?? reset}
               onSpinAgain={spin}
             />
           </motion.section>
         )}
-      </AnimatePresence>
+        </AnimatePresence>
+      </div>
     </div>
   );
 }
