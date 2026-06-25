@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 99%;
+    --foreground: 217 45% 16%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 217 45% 16%;
+
+    --primary: 218 81% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 30% 96%;
+    --secondary-foreground: 217 40% 20%;
+
+    --muted: 210 30% 96%;
+    --muted-foreground: 215 16% 42%;
+
+    --accent: 201 90% 94%;
+    --accent-foreground: 218 70% 35%;
+
+    --destructive: 0 80% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --success: 152 62% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --border: 210 28% 90%;
+    --input: 210 28% 90%;
+    --ring: 218 81% 48%;
+
+    --radius: 1rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer utilities {
+  /* Texto con relleno de gradiente. */
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+  }
+
+  /* Oculta scrollbars manteniendo el scroll. */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Respeta usuarios que prefieren menos movimiento. */
+  @media (prefers-reduced-motion: reduce) {
+    .animate-float,
+    .animate-gradient-shift,
+    .animate-pulse-glow {
+      animation: none !important;
+    }
+  }
+}
+
+/* Fondo animado de la app (gradiente celeste municipal en movimiento). */
+.app-background {
+  background: linear-gradient(
+    130deg,
+    #eff6ff 0%,
+    #dbeafe 22%,
+    #e0f2fe 48%,
+    #ecfeff 72%,
+    #fefce8 100%
+  );
+  background-size: 300% 300%;
+}

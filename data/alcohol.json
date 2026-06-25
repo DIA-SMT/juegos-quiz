@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿Existe una cantidad de alcohol 100% segura durante el embarazo?",
+    "respuestas": ["Sí, una copa por día", "No, lo recomendado es cero alcohol", "Solo cerveza", "Solo en el primer mes"],
+    "correcta": 1,
+    "explicacion": "Durante el embarazo no hay un nivel seguro de alcohol: puede afectar el desarrollo del bebé. La recomendación es cero consumo."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿El alcohol es un estimulante o un depresor del sistema nervioso?",
+    "respuestas": ["Estimulante", "Depresor", "No afecta al sistema nervioso", "Solo afecta el estómago"],
+    "correcta": 1,
+    "explicacion": "El alcohol es un depresor: enlentece los reflejos, el habla y la coordinación, aunque al principio dé una falsa sensación de euforia."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿Es seguro manejar después de tomar 'solo unas pocas' bebidas?",
+    "respuestas": ["Sí, si te sentís bien", "No, el alcohol reduce reflejos y atención", "Solo de día", "Solo en distancias cortas"],
+    "correcta": 1,
+    "explicacion": "Incluso poca cantidad de alcohol afecta los reflejos y la percepción. Si vas a tomar, no manejes: designá un conductor o usá transporte."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿El café o una ducha fría hacen que se baje la borrachera más rápido?",
+    "respuestas": ["Sí, eliminan el alcohol", "No, solo el tiempo reduce el alcohol en sangre", "Sí, pero solo el café", "Sí, con agua con gas"],
+    "correcta": 1,
+    "explicacion": "Nada acelera la eliminación del alcohol: el hígado lo procesa a su ritmo. El café o la ducha no te vuelven a estar sobrio, solo más despierto."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "El consumo intensivo de alcohol en poco tiempo ('previa' o atracón) es peligroso porque...",
+    "respuestas": ["Mejora la memoria", "Puede provocar intoxicación alcohólica", "No tiene riesgos", "Hidrata el cuerpo"],
+    "correcta": 1,
+    "explicacion": "Tomar mucho en poco tiempo puede causar una intoxicación alcohólica grave, que es una emergencia médica y puede poner en riesgo la vida."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿El consumo de alcohol en menores es más riesgoso que en adultos?",
+    "respuestas": ["No, es igual", "Sí, el cerebro joven es más vulnerable", "Solo si es vino", "Solo en verano"],
+    "correcta": 1,
+    "explicacion": "El cerebro sigue desarrollándose hasta cerca de los 25 años. El alcohol en la adolescencia puede afectar la memoria, el aprendizaje y aumentar el riesgo de adicción."
+  },
+  {
+    "categoria": "Alcohol",
+    "pregunta": "¿Mezclar alcohol con bebidas energizantes es una buena idea?",
+    "respuestas": ["Sí, así no te emborrachás", "No, enmascara los efectos y aumenta el riesgo", "Sí, da más energía sana", "No tiene ningún efecto"],
+    "correcta": 1,
+    "explicacion": "La cafeína de los energizantes oculta la sensación de borrachera, por lo que la persona toma más sin darse cuenta, aumentando el riesgo de intoxicación."
+  }
+]

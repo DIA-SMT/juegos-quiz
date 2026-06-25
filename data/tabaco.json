@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿El vapeador puede generar adicción?",
+    "respuestas": ["Sí", "No", "Solo en menores", "Solo si tiene nicotina"],
+    "correcta": 0,
+    "explicacion": "Muchos vapeadores contienen nicotina, una sustancia altamente adictiva. Además existen otros componentes que también pueden generar dependencia."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿Cuál es la principal sustancia adictiva del cigarrillo?",
+    "respuestas": ["Alquitrán", "Nicotina", "Monóxido de carbono", "Cafeína"],
+    "correcta": 1,
+    "explicacion": "La nicotina es la responsable de la adicción al tabaco: llega al cerebro en segundos y genera dependencia rápidamente."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿El humo de segunda mano (fumador pasivo) afecta a otras personas?",
+    "respuestas": ["No, solo al fumador", "Sí, también daña la salud de quienes lo respiran", "Solo a las mascotas", "Solo al aire libre"],
+    "correcta": 1,
+    "explicacion": "Respirar el humo ajeno aumenta el riesgo de enfermedades respiratorias y cardíacas, especialmente en niños y embarazadas."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿Qué beneficio aparece a las pocas horas de dejar de fumar?",
+    "respuestas": ["Mejora la oxigenación de la sangre", "Crece el cabello", "Aumenta la estatura", "Ningún cambio hasta el año"],
+    "correcta": 0,
+    "explicacion": "A las 12 horas los niveles de monóxido de carbono bajan y el oxígeno en sangre se normaliza. El cuerpo empieza a recuperarse muy rápido."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿Es cierto que el cigarrillo 'light' no hace daño?",
+    "respuestas": ["Sí, es inofensivo", "No, también es perjudicial", "Solo daña si se fuma de noche", "Es saludable en pocas cantidades"],
+    "correcta": 1,
+    "explicacion": "No existe un cigarrillo seguro. Los 'light' también contienen nicotina y sustancias tóxicas que dañan la salud."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿El tabaquismo es un factor de riesgo para enfermedades del corazón?",
+    "respuestas": ["No, solo afecta los pulmones", "Sí, aumenta el riesgo cardiovascular", "Solo en personas mayores", "Solo si se fuma en ayunas"],
+    "correcta": 1,
+    "explicacion": "Fumar daña los vasos sanguíneos y aumenta el riesgo de infartos y ACV, además de las enfermedades pulmonares."
+  },
+  {
+    "categoria": "Tabaco",
+    "pregunta": "¿Qué ayuda a aumentar las chances de dejar de fumar?",
+    "respuestas": ["Hacerlo en silencio y solo", "Buscar apoyo profesional y de la familia", "Fumar más fuerte para 'cansarse'", "Esperar a ser mayor"],
+    "correcta": 1,
+    "explicacion": "El acompañamiento de profesionales de la salud y del entorno multiplica las posibilidades de dejar el tabaco con éxito."
+  }
+]

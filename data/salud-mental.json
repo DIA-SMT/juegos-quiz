@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "¿Pedir ayuda a un psicólogo es señal de debilidad?",
+    "respuestas": ["Sí, hay que poder solo", "No, es un acto de cuidado y valentía", "Solo si es grave", "Solo para adultos"],
+    "correcta": 1,
+    "explicacion": "Cuidar la salud mental es tan importante como la física. Pedir ayuda profesional es una decisión madura y valiente, no una debilidad."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "¿Qué puede ayudar a manejar el estrés en el día a día?",
+    "respuestas": ["Dormir mal y aislarse", "Descansar, moverse y hablar lo que nos pasa", "Guardarse todo", "Estar más horas en el celular"],
+    "correcta": 1,
+    "explicacion": "El sueño, la actividad física, los vínculos y expresar lo que sentimos son grandes aliados para regular el estrés y la ansiedad."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "Sentir tristeza o ansiedad en algún momento...",
+    "respuestas": ["Es anormal y hay que ocultarlo", "Es parte de la vida; si persiste, conviene pedir ayuda", "Nunca le pasa a nadie", "Se soluciona ignorándolo"],
+    "correcta": 1,
+    "explicacion": "Todas las personas atraviesan emociones difíciles. Lo importante es no naturalizar el malestar prolongado y buscar apoyo cuando interfiere en la vida diaria."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "Si un amigo te cuenta que la está pasando muy mal, lo mejor es...",
+    "respuestas": ["Restarle importancia", "Escucharlo sin juzgar y alentarlo a pedir ayuda", "Contarlo como chisme", "Decirle que exagera"],
+    "correcta": 1,
+    "explicacion": "Escuchar con empatía, sin juzgar, y acompañar a buscar ayuda de un adulto o profesional puede marcar una gran diferencia."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "¿El sueño influye en nuestra salud mental?",
+    "respuestas": ["No tiene relación", "Sí, dormir bien mejora el ánimo y la concentración", "Solo importa en exámenes", "Solo en bebés"],
+    "correcta": 1,
+    "explicacion": "Dormir poco o mal afecta el estado de ánimo, la memoria y la capacidad de manejar emociones. El descanso es clave para el bienestar."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "El ejercicio físico, ¿tiene efectos sobre el ánimo?",
+    "respuestas": ["No, solo sobre los músculos", "Sí, ayuda a liberar tensiones y mejora el ánimo", "Solo si sos deportista", "Empeora el ánimo"],
+    "correcta": 1,
+    "explicacion": "Moverse libera endorfinas y reduce el estrés. La actividad física regular es una gran herramienta para el bienestar emocional."
+  },
+  {
+    "categoria": "Salud Mental",
+    "pregunta": "Las adicciones y la salud mental...",
+    "respuestas": ["No tienen ninguna relación", "Están muy conectadas y se influyen entre sí", "Son lo mismo", "Solo se relacionan en adultos"],
+    "correcta": 1,
+    "explicacion": "El malestar emocional puede llevar a consumos problemáticos, y las adicciones afectan la salud mental. Por eso se abordan de forma integral."
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Drogas",
+    "pregunta": "¿Que una sustancia sea legal significa que no hace daño?",
+    "respuestas": ["Sí, lo legal es seguro", "No, también puede ser dañina (alcohol, tabaco)", "Solo daña si es ilegal", "Depende del color"],
+    "correcta": 1,
+    "explicacion": "Legalidad no es lo mismo que seguridad. El alcohol y el tabaco son legales y, aun así, generan adicción y enfermedades."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "¿Qué es la tolerancia a una droga?",
+    "respuestas": ["Necesitar cada vez más para sentir el mismo efecto", "Dejar de consumir", "Una alergia", "Un antídoto"],
+    "correcta": 0,
+    "explicacion": "La tolerancia es cuando el cuerpo se acostumbra y se necesita una dosis mayor para el mismo efecto. Es un paso clave hacia la dependencia."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "Las adicciones afectan principalmente a...",
+    "respuestas": ["Solo a la voluntad", "Al cerebro y al funcionamiento de toda la persona", "Solo al estómago", "Solo a la billetera"],
+    "correcta": 1,
+    "explicacion": "La adicción es una enfermedad que afecta el cerebro y los circuitos de recompensa, impactando en la salud, los vínculos y la vida diaria."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "¿La presión del grupo de amigos puede influir en el consumo?",
+    "respuestas": ["No influye nunca", "Sí, por eso es importante saber decir que no", "Solo en adultos", "Solo si insisten una vez"],
+    "correcta": 1,
+    "explicacion": "La presión social es uno de los principales factores de inicio. Tener herramientas para decir que no y elegir bien tus entornos protege tu salud."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "Si una persona cercana tiene un problema de consumo, lo más útil es...",
+    "respuestas": ["Juzgarla y alejarse", "Acompañarla y buscar ayuda profesional", "Ocultar el problema", "Retarla en público"],
+    "correcta": 1,
+    "explicacion": "La adicción se trata. Acompañar sin juzgar y buscar ayuda profesional (médicos, líneas de apoyo) es lo más eficaz para la recuperación."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "¿Los medicamentos pueden ser peligrosos si se usan sin indicación médica?",
+    "respuestas": ["No, son siempre seguros", "Sí, automedicarse puede ser muy riesgoso", "Solo los inyectables", "Solo si están vencidos"],
+    "correcta": 1,
+    "explicacion": "Usar medicamentos sin receta o mezclarlos puede causar intoxicaciones y adicción. Siempre deben tomarse bajo indicación de un profesional."
+  },
+  {
+    "categoria": "Drogas",
+    "pregunta": "¿Cuál es un factor que protege frente al consumo de drogas?",
+    "respuestas": ["El aburrimiento constante", "Vínculos sanos, información y proyectos personales", "La falta de límites", "Estar siempre solo"],
+    "correcta": 1,
+    "explicacion": "Tener buena información, contención afectiva, autoestima y proyectos de vida funciona como factor protector frente a las adicciones."
+  }
+]

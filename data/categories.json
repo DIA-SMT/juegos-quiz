@@ -1,0 +1,44 @@
+[
+  {
+    "id": "tabaco",
+    "name": "Tabaco",
+    "emoji": "🚭",
+    "colors": { "from": "#1E3A8A", "to": "#1E40AF" },
+    "description": "Cigarrillos, vapeadores y nicotina."
+  },
+  {
+    "id": "juego",
+    "name": "Juego",
+    "emoji": "🎰",
+    "colors": { "from": "#2563EB", "to": "#3B82F6" },
+    "description": "Apuestas online, ludopatía y juego responsable."
+  },
+  {
+    "id": "redes",
+    "name": "Redes Sociales",
+    "emoji": "📱",
+    "colors": { "from": "#0284C7", "to": "#0EA5E9" },
+    "description": "Pantallas, redes y bienestar digital."
+  },
+  {
+    "id": "alcohol",
+    "name": "Alcohol",
+    "emoji": "🍺",
+    "colors": { "from": "#F59E0B", "to": "#FBBF24" },
+    "description": "Consumo de alcohol y sus efectos."
+  },
+  {
+    "id": "drogas",
+    "name": "Drogas",
+    "emoji": "💊",
+    "colors": { "from": "#0E7490", "to": "#06B6D4" },
+    "description": "Sustancias y sus riesgos para la salud."
+  },
+  {
+    "id": "salud-mental",
+    "name": "Salud Mental",
+    "emoji": "🧠",
+    "colors": { "from": "#0F766E", "to": "#14B8A6" },
+    "description": "Emociones, estrés y pedir ayuda."
+  }
+]

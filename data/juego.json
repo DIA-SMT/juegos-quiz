@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Juego",
+    "pregunta": "¿Qué es la ludopatía?",
+    "respuestas": ["Un pasatiempo saludable", "Una adicción al juego de apuestas", "Un tipo de videojuego", "Una estrategia para ganar"],
+    "correcta": 1,
+    "explicacion": "La ludopatía es un trastorno: la persona pierde el control sobre el juego de apuestas y sigue jugando a pesar de las consecuencias negativas."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "En las apuestas online, a la larga, ¿quién suele ganar?",
+    "respuestas": ["El jugador", "La casa de apuestas", "Ambos por igual", "Depende de la suerte de cada día"],
+    "correcta": 1,
+    "explicacion": "Las apuestas están diseñadas para que la casa gane a largo plazo. Por eso 'recuperar lo perdido' apostando más casi siempre agranda el problema."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "¿Las apuestas online están permitidas para menores de edad?",
+    "respuestas": ["Sí, sin límite", "No, están prohibidas para menores", "Solo los fines de semana", "Solo con permiso de un amigo"],
+    "correcta": 1,
+    "explicacion": "El juego de apuestas es solo para personas adultas. La exposición temprana aumenta mucho el riesgo de desarrollar una adicción."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "¿Cuál es una señal de alerta de problemas con el juego?",
+    "respuestas": ["Jugar una vez por curiosidad", "Mentir y pedir dinero prestado para seguir apostando", "Mirar un partido", "Usar el celular"],
+    "correcta": 1,
+    "explicacion": "Esconder cuánto se juega, endeudarse o mentir para conseguir dinero son señales claras de que el juego se volvió un problema."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "La frase 'la próxima seguro gano' es un ejemplo de...",
+    "respuestas": ["Un pensamiento realista", "La falacia del jugador", "Una regla matemática", "Una estrategia ganadora"],
+    "correcta": 1,
+    "explicacion": "Es la 'falacia del jugador': creer que una racha de pérdidas hace más probable ganar. Cada apuesta es independiente y el azar no 'se debe' nada."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "Si alguien siente que no puede dejar de apostar, ¿qué conviene hacer?",
+    "respuestas": ["Apostar más para distraerse", "Buscar ayuda profesional y hablarlo", "Ocultarlo a todos", "Cambiar de plataforma"],
+    "correcta": 1,
+    "explicacion": "Pedir ayuda no es debilidad. Existen profesionales y líneas de apoyo para tratar la ludopatía; hablarlo es el primer paso para salir."
+  },
+  {
+    "categoria": "Juego",
+    "pregunta": "¿Los videojuegos con 'cajas sorpresa' o premios al azar pueden fomentar conductas de apuesta?",
+    "respuestas": ["No, son totalmente seguros", "Sí, usan mecánicas parecidas a las apuestas", "Solo si cuestan mucho", "Solo en consolas viejas"],
+    "correcta": 1,
+    "explicacion": "Las 'loot boxes' usan recompensas aleatorias similares a las del juego de azar, lo que puede normalizar y fomentar conductas de apuesta."
+  }
+]

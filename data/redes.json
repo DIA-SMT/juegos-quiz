@@ -1,0 +1,51 @@
+[
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "¿Las redes sociales pueden generar conductas adictivas?",
+    "respuestas": ["No, nunca", "Sí, están diseñadas para captar nuestra atención", "Solo los videojuegos", "Solo de noche"],
+    "correcta": 1,
+    "explicacion": "Las notificaciones, los 'me gusta' y el scroll infinito activan el sistema de recompensa del cerebro y pueden generar un uso compulsivo."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "Comparar tu vida con lo que ves en redes suele ser engañoso porque...",
+    "respuestas": ["Todo lo publicado es real", "La gente muestra una versión editada e ideal", "Las fotos no se eligen", "Nadie usa filtros"],
+    "correcta": 1,
+    "explicacion": "En redes se muestran los mejores momentos, muchas veces filtrados o editados. Compararse con esa 'vida perfecta' afecta la autoestima."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "¿Qué es una buena práctica de 'higiene digital'?",
+    "respuestas": ["Usar el celular hasta dormirte", "Establecer horarios sin pantallas", "Revisar redes apenas despertás", "Tener mil notificaciones activas"],
+    "correcta": 1,
+    "explicacion": "Definir momentos libres de pantallas (como antes de dormir) mejora el descanso, la concentración y el bienestar emocional."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "Si alguien sufre acoso (ciberbullying) en redes, lo mejor es...",
+    "respuestas": ["Responder con más agresión", "Guardar pruebas, bloquear y pedir ayuda a un adulto", "Ignorarlo y aguantar solo", "Borrarse de internet en secreto"],
+    "correcta": 1,
+    "explicacion": "Ante el ciberacoso conviene no responder a la provocación, guardar capturas como prueba, bloquear y contarlo a un adulto de confianza."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "El uso excesivo del celular antes de dormir puede...",
+    "respuestas": ["Mejorar el sueño", "Dificultar conciliar el sueño", "No tener ningún efecto", "Hacerte madrugar mejor"],
+    "correcta": 1,
+    "explicacion": "La luz de las pantallas y la estimulación constante alteran el sueño, lo que afecta el ánimo, la memoria y el rendimiento al día siguiente."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "¿Es seguro aceptar y compartir todo con desconocidos en redes?",
+    "respuestas": ["Sí, todos son confiables", "No, hay que cuidar la privacidad y los datos", "Solo si tienen muchos seguidores", "Sí, si te siguen primero"],
+    "correcta": 1,
+    "explicacion": "No todas las personas son quienes dicen ser. Cuidar la privacidad y no compartir datos o imágenes íntimas protege tu seguridad."
+  },
+  {
+    "categoria": "Redes Sociales",
+    "pregunta": "El miedo a quedarse afuera de lo que pasa en redes se conoce como...",
+    "respuestas": ["FOMO", "Wi-Fi", "Spam", "Streaming"],
+    "correcta": 0,
+    "explicacion": "FOMO (del inglés 'fear of missing out') es la ansiedad por estar siempre conectado para no perderse nada. Reconocerlo ayuda a usar las redes con más equilibrio."
+  }
+]
