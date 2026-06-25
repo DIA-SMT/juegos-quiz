@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Ruleta Educativa | Prevención de adicciones",
   description:
     "Girá la ruleta y poné a prueba tus conocimientos sobre prevención de adicciones y bienestar.",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export const viewport: Viewport = {
