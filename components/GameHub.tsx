@@ -510,6 +510,7 @@ function MythGame({
   const item = myths[index];
   const answered = selected !== null;
   const isCorrect = selected === item.answer;
+  const isLastMyth = index === myths.length - 1;
 
   const choose = (value: boolean) => {
     if (answered) return;
@@ -553,9 +554,14 @@ function MythGame({
             correct={isCorrect}
             detail={item.detail}
             onNext={() => {
+              if (isLastMyth) {
+                onBack();
+                return;
+              }
               setSelected(null);
-              setIndex((current) => (current + 1) % myths.length);
+              setIndex((current) => current + 1);
             }}
+            nextLabel={isLastMyth ? "Volver al inicio" : "Siguiente"}
           />
         )}
       </Panel>
